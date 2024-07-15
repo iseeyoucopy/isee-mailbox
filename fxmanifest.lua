@@ -19,16 +19,16 @@ client_scripts {
 
 server_scripts {
   '@oxmysql/lib/MySQL.lua',
-  'DbUpdater.lua',
-  'versioncheck.lua',
+  'server/DbUpdater.lua',
+  'server/versioncheck.lua',
   'server/server.lua'
 }
 
 dependency {
-	'vorp_core',
+  'vorp_core',
   'oxmysql',
-	'feather-menu',
-	'bcc-utils'
+  'feather-menu',
+  'bcc-utils'
 }
 
-version '1.0.0'
+version '1.0.1'
