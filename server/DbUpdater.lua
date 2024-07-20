@@ -15,6 +15,7 @@ CreateThread(function()
         CREATE TABLE IF NOT EXISTS `mailbox_messages` (
             `from_char` varchar(255) NOT NULL,
             `to_char` varchar(255) NOT NULL,
+            `from_name` varchar(255) NOT NULL,
             `message` text NOT NULL,
             `subject` varchar(255) DEFAULT NULL,
             `location` varchar(255) DEFAULT NULL,
